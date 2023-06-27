@@ -1,0 +1,257 @@
+<!-- List of Access Permissions https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectoryrights?view=dotnet-plat-ext-6.0 -->
+<!-- List of Inheritance https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectorysecurityinheritance?view=dotnet-plat-ext-6.0-->
+<Tiering>
+    <!-- Level0-->
+    <OUDefinition level="0" OUPath="">
+        <OU>
+            <OUName>Teal - ESAE</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level1-->
+    <OUDefinition level="1" OUPath="OU=Teal - ESAE">  
+        <OU>
+            <OUName>Tier 2</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level2-->
+    <OUDefinition level="2" OUPath="OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit01</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit08</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit07</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit06</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit05</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit04</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit03</OUName>
+        </OU>
+        <OU>
+            <OUName>BusinessUnit02</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level3-->
+    <OUDefinition level="3" OUPath="OU=BusinessUnit01,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit08,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit07,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit06,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit05,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit04,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit03,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=BusinessUnit02,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level4-->
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit01,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit08,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit07,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit06,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit05,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit04,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit03,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="4" OUPath="OU=Devices,OU=BusinessUnit02,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>PAWs</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+        <OU>
+            <OUName>Clients</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level5-->
+    <OUDefinition level="5" OUPath="OU=Servers,OU=Devices,OU=BusinessUnit01,OU=Tier 2,OU=Teal - ESAE">
+        <OU>
+            <OUName>Bloodhound</OUName>
+        </OU>
+    </OUDefinition>
+</Tiering> 

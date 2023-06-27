@@ -1,0 +1,230 @@
+<!-- List of Access Permissions https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectoryrights?view=dotnet-plat-ext-6.0 -->
+<!-- List of Inheritance https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectorysecurityinheritance?view=dotnet-plat-ext-6.0-->
+<Tiering>
+    <!-- Level0-->
+    <OUDefinition level="0" OUPath="">
+        <OU>
+            <OUName>Teal - ESAE</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level1-->
+    <OUDefinition level="1" OUPath="OU=Teal - ESAE">  
+        <OU>
+            <OUName>Tier 0</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level2-->
+    <OUDefinition level="2" OUPath="OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>AAD</OUName>
+        </OU>
+        <OU>
+            <OUName>Bloodhound</OUName>
+        </OU>
+        <OU>
+            <OUName>CodeSigning</OUName>
+        </OU>
+        <OU>
+            <OUName>EnforceAdmin</OUName>
+        </OU>
+        <OU>
+            <OUName>Fileserver</OUName>
+        </OU>
+        <OU>
+            <OUName>AADB</OUName>
+        </OU>
+        <OU>
+            <OUName>Monitoring</OUName>
+        </OU>
+        <OU>
+            <OUName>PasswordState</OUName>
+        </OU>
+        <OU>
+            <OUName>PAW</OUName>
+        </OU>
+        <OU>
+            <OUName>PKI</OUName>
+        </OU>
+        <OU>
+            <OUName>SQL</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>WSUS</OUName>
+        </OU>
+    </OUDefinition>
+    <!-- Level3-->
+    <OUDefinition level="3" OUPath="OU=AAD,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=Bloodhound,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=CodeSigning,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=EnforceAdmin,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=Fileserver,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=AADB,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=Monitoring,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=PasswordState,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=PAW,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Devices</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=PKI,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=SQL,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+    <OUDefinition level="3" OUPath="OU=WSUS,OU=Tier 0,OU=Teal - ESAE">
+        <OU>
+            <OUName>Groups</OUName>
+        </OU>
+        <OU>
+            <OUName>Users</OUName>
+        </OU>
+        <OU>
+            <OUName>ServiceUsers</OUName>
+        </OU>
+        <OU>
+            <OUName>Servers</OUName>
+        </OU>
+    </OUDefinition>
+</Tiering> 
